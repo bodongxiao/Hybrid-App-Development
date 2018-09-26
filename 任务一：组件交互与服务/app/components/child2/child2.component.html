@@ -1,0 +1,19 @@
+<!-- 基本上用的是第二节课老师给的todolist代码，并通过组件和服务的知识做了改动 -->
+<h3>正在进行<span>{{count}}</span></h3>
+  <ng-container *ngFor="let item of arr;let i = index;">
+      <li *ngIf="!item.done">
+            <input type="checkbox" (click)="change($event,i)" >
+          {{item.title}}
+          <button (click)="delete($event,i)" >删除</button> 
+        </li>
+  </ng-container>
+  <!-- 我也不知道为啥加个<ul></ul>标签就报错，搞了半天 -->
+<h3>已经完成<span>{{arr.length - count}}</span></h3>
+    <ng-container *ngFor="let item of arr;let i = index;">
+  <li  *ngIf="item.done">
+    <input type="checkbox" (click)="change($event,i)" checked  >
+    {{item.title}}
+    <button (click)="delete($event,i)" >删除</button>
+  </li>
+</ng-container>
+
