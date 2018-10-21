@@ -1,0 +1,13 @@
+<div class="container">
+  <ul>
+    <li *ngFor="let course of courses;">
+      <img src="{{course.images}}" >
+      <h3>{{course.courseName}}</h3>
+      <div>
+        <span>{{course.task}}</span>
+        <span>{{course.person}}</span>
+        <button>申请</button>
+      </div>
+    </li>
+  </ul>
+</div>

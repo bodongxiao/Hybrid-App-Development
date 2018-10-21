@@ -1,0 +1,9 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container li{
+    width: 297px;
+    float: left;
+    margin-right: 3px;
+}
