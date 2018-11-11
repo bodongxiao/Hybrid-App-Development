@@ -1,0 +1,138 @@
+page-c {
+    .headimg{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .div1{
+        background-color:#CCCCFF;
+        opacity: 0.8;
+        width: 100%;
+        height: 11%;
+        font-size: 130%;
+        .pleft{
+            margin-left: 3%;
+            float: left;
+
+        }
+        .pright{
+            float: right;
+            margin-right: 3%;
+            opacity: 0.5;
+        }
+    }
+    .cos{
+        margin-left: 4%;
+        padding: 0;
+        background-color: white;
+        div{
+            position: relative;
+            width: 30%;
+            float: left;
+            margin: 0 1% 0 1%;
+            text-align: center;
+            p{
+                font-size: 120%;
+                line-height: 1%;
+            }
+        }
+        .icon1{
+            font-size: 450%;
+        }
+    }
+    .goods{
+        margin-left: 1%;
+        padding: 0;
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 3% 1% 3% 1%;
+            div{
+                text-align: center;
+
+            }
+            p{
+                font-size: 140%;
+                line-height: 1%;
+            }
+        }
+        .icon2{
+            font-size: 800%;
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // *{
+    //     background-color: #CCCCCC;
+    // }
+    // .headimg{
+    //     width: 100%;
+    //     img{
+    //         width: 100%;
+    //         height: 40%;
+    //     }
+    // }
+    // .div1{
+    //     height: 11%;
+    //     width: 100%;
+    //     background-color: #CCCCFF;
+    
+    //     p{
+    //     margin-top: 0%;
+    //     font-size: 120%;
+    //     }
+    // }
+    // .pleft{
+    //     float: left;
+    //     margin-left: 5%;
+    // }
+    // .pright{
+    //     float: right;
+    //     margin-right: 5%;
+    //     opacity: 0.5;
+    // }
+
+    // // .div2{
+    // //     width: 99%;
+    // //     height: 30%;
+    // // }
+    // .div2{
+    //     // height: 40%;
+    //     width: 33%;
+    //     float: left;
+    //     padding: 1%;
+    //     background-color: white;
+    //     text-align: center;
+    //     margin-left: 0.2%;
+    //     p{
+    //         font-size: 120%;
+    //         background-color: white;
+    //         line-height: 1%;
+    //     }
+    // }
+    // .icon1{
+    //     font-size: 450%;
+    //     background-color: white;
+    // }
+    
+}
