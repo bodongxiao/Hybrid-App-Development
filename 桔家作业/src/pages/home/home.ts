@@ -50,5 +50,5 @@ export class HomePage {
       refresher.complete();
     }, 2000);
   }
-
+  
 }

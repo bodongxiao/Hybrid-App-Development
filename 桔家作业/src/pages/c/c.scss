@@ -1,4 +1,7 @@
 page-c {
+    .bodycol{
+        background-color: #EEEEEE;
+    }
     .headimg{
         width: 100%;
         img{
@@ -23,15 +26,19 @@ page-c {
         }
     }
     .cos{
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-left: 4%;
         padding: 0;
         background-color: white;
         div{
             position: relative;
             width: 30%;
+            height: 130px;
             float: left;
             margin: 0 1% 0 1%;
             text-align: center;
+            background-color: white;
             p{
                 font-size: 120%;
                 line-height: 1%;
@@ -39,27 +46,33 @@ page-c {
         }
         .icon1{
             font-size: 450%;
+            margin-top:10px;
         }
     }
     .goods{
-        margin-left: 1%;
+        margin-left: 19px;
+        margin-right: 20px;
         padding: 0;
         li{
             position: relative;
-            width: 45%;
+            width: 49%;
             float: left;
-            margin: 3% 1% 3% 1%;
+            margin: 1% 0% 0% 1%;
+            // height: 150px;
             div{
                 text-align: center;
-
+                background-color: white;
+                width: 100%;
+                height: 150px;
             }
             p{
-                font-size: 140%;
-                line-height: 1%;
+                font-size: 120%;
+                margin-top: 2px;
             }
         }
         .icon2{
-            font-size: 800%;
+            font-size: 400%;
+            margin-top: 30px;
         }
     
     }
