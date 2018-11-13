@@ -5,7 +5,7 @@ page-home {
         height: 44px;
         line-height: 44px;
         .first{
-            border-bottom:2px solid #ffdb2c;
+            border-bottom:3px solid #ffdb2c;
         }
         li{
             height: 44px;
@@ -15,6 +15,7 @@ page-home {
         }
     }
     .sli{
+        margin-top: 1px;
         height:auto;
         img{
             width: 100%;
@@ -59,6 +60,56 @@ page-home {
             }
         }
     }
+    .cos{
+        margin-left: 4%;
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 30%;
+            float: left;
+            margin: 5px 1% 5px 1%;
+        }
+    }
+    .goods1{
+        margin-left: 4%;
+        padding: 0;
+        img{
+            width: 100%;
+        }
+        li{
+            position: relative;
+            width: 45%;
+            float: left;
+            margin: 5px 1% 5px 1%;
+            // display: inline-block;             //将其变为行内元素，但不能设置宽高了
+            // span{
+            //     display: block;
+            //     width: 26px;
+            //     height: 26px;
+            //     text-align: center;
+            //     line-height: 26px;
+            //     border-radius: 50%;
+            //     color: red;
+            //     position: absolute;
+            //     background: #fff;
+            //     right: 15px;
+            //     bottom: 25px;
+            // }
+            p{
+                position: absolute;
+                width: 100%;
+                bottom:4px;
+                margin: 0;
+                color: #fff;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background-color:rgba(0,0,0,0.5);
+            }
+        }
 
     ion-scroll{
         height: 30px;
@@ -71,4 +122,5 @@ page-home {
             text-align: center;
         }
     }
+}
 }

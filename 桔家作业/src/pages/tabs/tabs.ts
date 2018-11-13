@@ -14,6 +14,7 @@ export class TabsPage {
   tab3Root = ContactPage;
   tab4Root = 'BPage';
   tab5Root = 'CPage';
+  tab6Root = 'MidPage';
 
   constructor() {
 
