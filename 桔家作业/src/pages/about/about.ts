@@ -9,9 +9,12 @@ export class AboutPage {
   @ViewChild(Slides) slides:Slides;
   constructor(public navCtrl: NavController) {
   }
+  goBack() {
+    this.navCtrl.pop();
+  }
   ionViewDidLoad(){
   }
-  change(){
-    console.log( this.slides.getActiveIndex() );
-  }
+  // change(){
+  //   console.log( this.slides.getActiveIndex() );
+  // }
 }

@@ -14,6 +14,7 @@ export class HomePage {
   isActive=true;
   isClick(i){
     this.isActive = i;
+    // this.navCtrl.getPrevious();
   }
   // arr = ['推荐','家居','厨具','床上用品']          //循环方法
   constructor(public http:HttpClient,public navCtrl: NavController) {

@@ -11,6 +11,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpClientModule } from '@angular/common/http';
+import { MidPage } from '../pages/mid/mid';
+import { OptionsPage } from '../pages/options/options';
 // import { Camera } from '@ionic-native/camera';
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactPage,
     HomePage,
     TabsPage,
+    MidPage,
+    OptionsPage,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +39,8 @@ import { HttpClientModule } from '@angular/common/http';
     ContactPage,
     HomePage,
     TabsPage,
+    MidPage,
+    OptionsPage,
   ],
   providers: [
     StatusBar,
