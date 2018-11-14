@@ -13,6 +13,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpClientModule } from '@angular/common/http';
 import { MidPage } from '../pages/mid/mid';
 import { OptionsPage } from '../pages/options/options';
+import { CPage } from '../pages/c/c';
+import { IdeasPage } from '../pages/ideas/ideas';
+import { ShopPage } from '../pages/shop/shop';
+import { LoginPage } from '../pages/login/login';
+import { BPage } from '../pages/b/b';
+import { SearchPage } from '../pages/search/search';
 // import { Camera } from '@ionic-native/camera';
 @NgModule({
   declarations: [
@@ -23,6 +29,12 @@ import { OptionsPage } from '../pages/options/options';
     TabsPage,
     MidPage,
     OptionsPage,
+    CPage,
+    IdeasPage,
+    ShopPage,
+    LoginPage,
+    BPage,
+    SearchPage,
   ],
   imports: [
     BrowserModule,
@@ -41,6 +53,12 @@ import { OptionsPage } from '../pages/options/options';
     TabsPage,
     MidPage,
     OptionsPage,
+    CPage,
+    IdeasPage,
+    ShopPage,
+    LoginPage,
+    BPage,
+    SearchPage,
   ],
   providers: [
     StatusBar,

@@ -5,7 +5,9 @@ import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import { MidPage } from '../mid/mid';
 import { ModalController } from 'ionic-angular';
-// import { ShopPage } from '../shop/shop';
+import { ShopPage } from '../shop/shop';
+import { IdeasPage } from '../ideas/ideas';
+import { CPage } from '../c/c';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -13,11 +15,10 @@ import { ModalController } from 'ionic-angular';
 export class TabsPage {
 
   tab1Root = HomePage;
-  tab2Root = 'ShopPage';
+  tab2Root = ShopPage;
   tab3Root = ContactPage;
-  tab4Root = 'IdeasPage';
-  tab5Root = 'CPage';
-  // tab6Root = 'MidPage';
+  tab4Root = IdeasPage;
+  tab5Root = CPage;
 
   constructor(public modalCtrl: ModalController) {
 
